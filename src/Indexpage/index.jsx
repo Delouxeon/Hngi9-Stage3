@@ -5,6 +5,7 @@ import FirstSection from './Section1';
 import CardSection from './Section2';
 import MetanabNft from './Section3';
 import Footer from './Footer';
+import Purplebar from  './PurpleBar';
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
     <div>
       <Header />
       <FirstSection />
+      <Purplebar />
       <CardSection />
       <MetanabNft />
       <Footer />

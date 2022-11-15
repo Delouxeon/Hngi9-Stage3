@@ -23,132 +23,132 @@ return(
   <section>
     <div className="places-card-container card-container">
       <div className="card">
-        <img src={CardImage21} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage21} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage22} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage22} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage23} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage23} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage24} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage24} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage25} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage25} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage26} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage26} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage27} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage27} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage28} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage28} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage29} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage29} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage210} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage210} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage211} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage211} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage212} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage212} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage213} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage213} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage214} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage214} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage215} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage215} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
       <div className="card">
-        <img src={CardImage216} />
-        <div>
-          <p>Desert King <br />2345km away</p>
-          <p>1MBT per night <br />available for 2weeks stay</p>
+        <img className='card-img' src={CardImage216} />
+        <div className='card-text'>
+          <p className='card-left-paragraph'>Desert King <br />2345km away</p>
+          <p className='card-right-paragraph'>1MBT per night <br />available for 2weeks stay</p>
         </div>
-        <img src={FiveStar} />
+        <img className='fivestar' src={FiveStar} />
       </div>
     </div>
   </section>

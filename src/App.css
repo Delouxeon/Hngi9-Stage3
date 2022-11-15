@@ -24,8 +24,9 @@ header, section, footer{
 .section1-container,
 .section2-container,
 .section3-container,
-.footer-container{
-    max-width: 900px;
+.footer-container,n
+.purplebar-section{
+    max-width: 1000px;
 }
 
 .header-container,
@@ -93,10 +94,37 @@ nav ul li{
 }
 
 
-.section1-container{
+.section2-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card{
+     background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+     border: 1px solid #D7D7D7;
+     border-radius: 15px;
+     padding: .7rem;
+     font-size: .7rem;
 
 }
 
+.card-text{
+    display: flex;
+}
+
+.card-img{
+    width: 100%;
+}
 
 
 
@@ -113,7 +141,7 @@ footer h4{
 
 @media(min-width:481px) {
     nav {
-        width: 65%;
+        width: 70%;
     }
 
     nav ul li{
@@ -125,7 +153,11 @@ footer h4{
     .section2-container,
     .section3-container,
     .footer-container {
-        margin: 2rem 2rem;
+        margin: 2rem 3rem;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr 1fr;
     }
 
 
@@ -153,6 +185,10 @@ footer h4{
     margin: 2rem 4rem;
     }
 
+    .card-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
 }
 
 @media(min-width:1025px) {
@@ -165,9 +201,9 @@ footer h4{
        font-size: 1rem;
     }
 
-    .btn-purple{
+    /* .btn-purple{
         font-size: 1rem;
-    }
+    } */
 
     .headermetabnb {
         width: 200px;
