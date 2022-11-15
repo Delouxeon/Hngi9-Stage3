@@ -8,7 +8,7 @@ import twitter from '../assets/twitter.svg';
 const Footer = () => {
 
 return(
-  <footer>
+  <footer className='footer'>
     <div className='footer-container'>
       <div>
         <img src={FooterMetabnb} />

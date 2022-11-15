@@ -12,7 +12,7 @@ const CardSection = () => {
 
 return(
   <section className='section2'>
-    <div className='section2container'>
+    <div className='section2-container'>
       <h2>Inspiration for your next adventure</h2>
       <div className="home-card-container card-container">
         <div className="card">
