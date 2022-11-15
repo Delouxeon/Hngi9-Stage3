@@ -4,7 +4,7 @@ const LocationBar = () => {
 
 return(
   <section>
-    <div>
+    <div className='location-bar-container'> 
       <div className="location-options">
         <ul>
           <li><a href="">Resturant</a></li>

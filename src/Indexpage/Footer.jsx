@@ -9,7 +9,7 @@ const Footer = () => {
 
 return(
   <footer>
-    <div>
+    <div className='footer-container'>
       <div>
         <img src={FooterMetabnb} />
         <div>

@@ -11,10 +11,10 @@ import FiveStar from '../assets/FiveStar.svg'
 const CardSection = () => {
 
 return(
-  <section>
-    <div>
+  <section className='section2'>
+    <div className='section2container'>
       <h2>Inspiration for your next adventure</h2>
-      <div className="home-card-container">
+      <div className="home-card-container card-container">
         <div className="card">
           <img src={CardImage01} />
           <div>

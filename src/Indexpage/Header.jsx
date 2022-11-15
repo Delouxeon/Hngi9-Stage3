@@ -6,7 +6,7 @@ const Header = () => {
 
 return(
   <header>
-    <div>
+    <div className='header-container'>
        <img src={HeaderMetabnb} />
        <nav className='headerNav'>
           <ul>
@@ -19,7 +19,7 @@ return(
           </ul>
        </nav>
        {}
-       <Link to={"/connectwallet.html"}>Connect wallet</Link>
+       <button className='btn btn-purple'>Connect wallet</button>
     </div>
   </header>
 );

@@ -4,7 +4,7 @@ import OpenSeaPurplebar from '../assets/OpenSeaPurplebar.svg'
 const Purplebar = () => {
 
 return(
-  <section>
+  <section className='purplebar-section'>
     <div className="purplebar">
       <img className='mbt_token' src={MBTokenPurplebar} />
       <img className='meta_mask' src={MetamaskPurplebar} />
