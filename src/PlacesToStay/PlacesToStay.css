@@ -67,14 +67,16 @@ li{
         flex-wrap: wrap;
     }
 
-    .location-opti
+    .location-options ul li{
+        flex-basis: 25%;
+    }
 }
 
 
 @media (min-width:789px) {
     .location-bar-container {
         margin: 2rem 3rem;
-        flex-direction: ;
+        flex-direction: row;
     }
 
      .location-settings {
