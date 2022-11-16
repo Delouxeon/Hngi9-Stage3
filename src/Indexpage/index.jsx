@@ -1,4 +1,5 @@
 import * as React from 'react';
+// import {useState} from 'react'
 import './index.css';
 import Header from './Header';
 import FirstSection from './Section1';
@@ -6,10 +7,11 @@ import CardSection from './Section2';
 import MetanabNft from './Section3';
 import Footer from './Footer';
 import Purplebar from  './PurpleBar';
-import ConnectWallet from '../Connect-Wallet/connectWallet';
+// import ConnectWallet from '../Connect-Wallet/connectWallet';
 
 
 function Home() {
+
 
   return (
     <div>
@@ -19,7 +21,7 @@ function Home() {
       <CardSection />
       <MetanabNft />
       <Footer />
-      <ConnectWallet />
+      {/* <ConnectWallet /> */}
     </div>
   );
 }

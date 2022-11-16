@@ -1,8 +1,12 @@
+import {useState} from 'react'
 import React from 'react'
 import { Link } from "react-router-dom"
 import HeaderMetabnb from '../assets/HeaderMetabnb.svg'
+import ConnectWallet from '../Connect-Wallet/connectWallet'
 
 const Header = () => {
+
+const [openModal, setOpenModal] = useState(false);
 
 return(
   <header>
@@ -19,7 +23,8 @@ return(
           </ul>
        </nav>
        {}
-       <button className='btn btn-purple'>Connect wallet</button>
+       <button onClick={() => {setOpenModal(true)}} className='btn btn-purple'>Connect wallet</button>
+       {openModal == <ConnectWallet closeModal = {setOpenModal} />}
     </div>
   </header>
 );
