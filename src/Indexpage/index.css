@@ -178,6 +178,14 @@
         align-items: start;
     }
 
+    .sec1-heading {
+        font-size: 3rem;
+    }
+    
+    .section3writeup p {
+        font-size: 1.5rem;
+    }
+
 
     .mbt_token,
     .meta_mask,

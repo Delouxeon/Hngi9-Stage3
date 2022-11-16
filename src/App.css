@@ -118,7 +118,7 @@ nav ul li{
     gap: 1rem;
     /* margin-top: 1.5rem; */
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .card{
@@ -182,13 +182,15 @@ footer h4{
 
 
 .footer-container{
-    /* border: 1px solid white; */
+    border: 1px solid white;
     display: grid;
     grid-template-columns: 1fr;
     /* width: 100%; */
     gap:2.2rem;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     
 }
 

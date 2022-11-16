@@ -24,7 +24,7 @@ return(
        </nav>
        {}
        <button onClick={() => {setOpenModal(true)}} className='btn btn-purple'>Connect wallet</button>
-       {openModal && <ConnectWallet closeModal = {setOpenModal} />}
+       {openModal && <ConnectWallet closeModal />}
     </div>
   </header>
 );

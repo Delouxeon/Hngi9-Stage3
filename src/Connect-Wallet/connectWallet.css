@@ -3,3 +3,58 @@
 }
 
 
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-bg .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(64, 64, 64, 0.3);
+    height: 100%;
+    width: 100%;
+}
+
+.modal-bg .modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal-bg .modal-container .modal {
+    background-color: #FFFFFF;
+    max-width: 600px;
+    width: 100%;
+    height: 326px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.modal-bg .modal-container .modal .modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.modal-bg .modal-container .modal .modal-header button {
+   border: none;
+   background: #fff;
+}
+
+.modal-bg .modal-container .modal p {
+    margin-top: 16px;
+}
+
+
+
+.modal-bg .modal-container .modal .modal-body {
+    margin: ;
+}
