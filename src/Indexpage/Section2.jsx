@@ -13,7 +13,7 @@ const CardSection = () => {
 return(
   <section className='section2'>
     <div className='section2-container'>
-      <h2>Inspiration for your next adventure</h2>
+      <h2 className='section2-heading'>Inspiration for your next adventure</h2>
       <div className="home-card-container card-container">
         <div className="card">
           <img className='card-img' src={CardImage01} />
