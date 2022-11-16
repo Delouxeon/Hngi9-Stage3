@@ -6,6 +6,7 @@ import CardSection from './Section2';
 import MetanabNft from './Section3';
 import Footer from './Footer';
 import Purplebar from  './PurpleBar';
+import ConnectWallet from '../Connect-Wallet/connectWallet';
 
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
       <CardSection />
       <MetanabNft />
       <Footer />
+      <ConnectWallet />
     </div>
   );
 }

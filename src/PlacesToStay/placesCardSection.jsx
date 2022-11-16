@@ -20,7 +20,7 @@ import FiveStar from '../assets/FiveStar.svg'
 const PlacesCardSection = () => {
 
 return(
-  <section>
+  <section className ='section2-container' >
     <div className="places-card-container card-container">
       <div className="card">
         <img className='card-img' src={CardImage21} />

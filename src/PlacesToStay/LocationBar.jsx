@@ -16,9 +16,9 @@ return(
           <li><a href="">Farms</a></li>
         </ul>
       </div>
-      <div className="location settings">
+      <div className="location-settings">
         <p>Location</p>
-        <span><img src={setting5} /></span>
+        <img className='settings-icon' src={setting5} />
       </div>
     </div>
   </section>
