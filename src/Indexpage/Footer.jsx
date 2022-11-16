@@ -11,11 +11,11 @@ return(
   <footer className='footer'>
     <div className='footer-container'>
       <div>
-        <img src={FooterMetabnb} />
-        <div>
-          <img src={facebook} />
-          <img src={instagram} />
-          <img src={twitter} />
+        <img className ='footermethabnb' src={FooterMetabnb} />
+        <div className='footer-icons'>
+          <img className='facebook' src={facebook} />
+          <img className='instagram' src={instagram} />
+          <img className='twitter' src={twitter} />
         </div>
         <p>&copy; 2022 Metabnb</p>
       </div>
