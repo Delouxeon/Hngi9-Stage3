@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin: 50px 100px;
+    margin-left: 130px; */
 }
 
 .location-bar-container{
@@ -84,6 +86,16 @@
 
 
 @media (min-width:789px) {
+
+    .section2-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 100px;
+        margin-left: 130px;
+    }
+
+
     .location-bar-container {
         margin: 2rem 3rem;
     }

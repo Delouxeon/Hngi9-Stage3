@@ -15,7 +15,7 @@ return(
        <nav className='headerNav'>
           <ul>
             {}
-            <li><Link to={"/index.html"}>Home</Link></li>
+            <li><Link to={"/"}>Home</Link></li>
             {}
             <li><Link to={"/placestostay.html"}>Places to Stay</Link></li>
             <li><a href="">NFTs</a></li>
