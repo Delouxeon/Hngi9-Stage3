@@ -103,7 +103,7 @@ nav ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .section2-heading{
@@ -116,7 +116,9 @@ nav ul li{
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
+    width: 100%;
+    border: 1px solid blue;
 }
 
 .card{
