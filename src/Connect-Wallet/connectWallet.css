@@ -1,8 +1,3 @@
-.modal-container{
-    padding: .9rem;
-}
-
-
 .modal-bg {
     position: fixed;
     top: 0;
@@ -20,7 +15,7 @@
     width: 100%;
 }
 
-.modal-bg .modal-container {
+.modal-bg .modal-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,19 +37,45 @@
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    border-bottom: 1px solid #CFD8DC;
 }
 
-.modal-bg .modal-container .modal .modal-header button {
-   border: none;
-   background: #fff;
+.modal-bg .modal-container .modal button {
+    border: none;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
-
-.modal-bg .modal-container .modal p {
-    margin-top: 16px;
-}
-
-
 
 .modal-bg .modal-container .modal .modal-body {
-    margin: ;
+    margin: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.modal-bg .modal-container .modal .modal-body  .wallet {
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid #CFD8DC;
+    border-radius: 12px;
+    height: 68px;
+    cursor: pointer;
+    margin-top: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .modal-bg .modal-container .modal .modal-body {
+        margin: 16px;
+    }
+    
+    .modal-bg .modal-container .modal .modal-header > h1 { 
+        font-size: larger;
+    }
+
 }
