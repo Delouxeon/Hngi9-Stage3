@@ -43,11 +43,8 @@
 .modal-bg .modal-container .modal button {
     border: none;
     background-color: #FFFFFF;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
+
 
 .modal-bg .modal-container .modal .modal-body {
     margin: 16px;

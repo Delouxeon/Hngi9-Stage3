@@ -182,7 +182,6 @@ footer h4{
 
 
 .footer-container{
-    border: 1px solid white;
     display: grid;
     grid-template-columns: 1fr;
     /* width: 100%; */

@@ -5,20 +5,31 @@ const LocationBar = () => {
 return(
   <section>
     <div className='location-bar-container'> 
+
       <div className="location-options">
-        <ul>
-          <li><a href="">Resturant</a></li>
-          <li><a href="">Cottage</a></li>
-          <li><a href="">Castle</a></li>
-          <li><a href="">fantast city</a></li>
-          <li><a href="">Carbins</a></li>
-          <li><a href="">Off-grid</a></li>
-          <li><a href="">Farms</a></li>
-        </ul>
-      </div>
-      <div className="location-settings">
-        <p>Location</p>
-        <img className='settings-icon' src={setting5} />
+        <a href="">Resturant</a>
+        <a href="">Cottage</a>
+        <a href="">Castle</a>
+        <a href="">fantast city</a>
+        <a href="">Carbins</a>
+        <a href="">Off-grid</a>
+        <a href="">Farms</a>
+  
+        <select className="location-select">
+          <option>Resturant</option>
+          <option>Cottage</option>
+          <option>Castle</option>
+          <option>fantast city</option>
+          <option>Carbins</option>
+          <option>Off-grid</option>
+          <option>Farms</option>
+        </select>
+
+
+        <div className="location-settings">
+          <p>Location</p>
+          <img className='settings-icon' src={setting5} />
+        </div>
       </div>
     </div>
   </section>

@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import connectWalletMetamask from '../assets/connectWalletMetamask.svg'
-import connectWalletBlue from "../assets/WalletConnectBlue.svg"
-import close from '../assets/close.png'
-import arrowRight from '../assets/arrowRight.png'
+import connectWalletMetamask from "../assets/modal/metamask.png"
+import connectWalletBlue from "../assets/modal/wallet-connect.png"
+import close from "../assets/modal/close.png"
+import arrowRight from "../assets/modal/arrow-right.png"
 import "./connectWallet.css";
 
 
@@ -26,11 +26,11 @@ function ConnectWallet({closeModal}) {
               <p>Choose your preferred wallet</p>
 
               <div className='wallet'>
-                <button> <img src={connectWalletMetamask} />Metamask</button>
+                <button> <img src={connectWalletMetamask} /> </button>
                 <button><img src={arrowRight} /></button>
               </div>
               <div className='wallet'>
-                <button> <img src={connectWalletBlue} />WalletConnect</button>
+                <button> <img src={connectWalletBlue} /> </button>
                 <button><img src={arrowRight} /></button>
               </div> 
 

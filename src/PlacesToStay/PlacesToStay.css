@@ -1,9 +1,3 @@
-
-
-li{
-    list-style:  none;
-}
-
 .section2-container{
     display: flex;
     justify-content: center;
@@ -11,24 +5,50 @@ li{
 }
 
 .location-bar-container{
-    font-size: .8rem;
+    font-size: .8em;
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    justify-self: start;
+    justify-content: space-between;
+    width: 100%;
 }
 
+.location-bar-container .location-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.location-bar-container .location-options > a{
+    display: block;
+}
 
 .location-settings{
-    display: flex;
-    padding: .5rem;
-    gap:1.5rem;
     background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
     border: 1px solid #B4B4B4;
     border-radius: 8px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10em;
+    height: 3em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    margin-right: 4em;
 }
 
-.location-settings p{
+.location-select {
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 8em;
+    height: 3em;
+}
+
+.location-settings p {
 
 }
 
@@ -41,10 +61,7 @@ li{
 }
 
 .location-options ul{
-   display: flex; 
-   flex-direction: column;
-   gap:.8rem;
-   text-align: center;
+    
 }
 
 .settings-icon{
@@ -53,22 +70,15 @@ li{
 @media (min-width:481px){
     .location-bar-container{
         margin: 2rem 2rem;
-        align-items: center;
-        /* flex-direction: row; */
     }
 
     .location-settings {
-        /* grid-template-columns: 90% 10%; */
+        grid-template-columns: 90% 10%;
 
     }
 
     .location-options ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .location-options ul li{
-        flex-basis: 25%;
+     
     }
 }
 
@@ -76,7 +86,6 @@ li{
 @media (min-width:789px) {
     .location-bar-container {
         margin: 2rem 3rem;
-        flex-direction: row;
     }
 
      .location-settings {
@@ -87,6 +96,7 @@ li{
     .location-options ul {
        
     }    
+
         
 }
 
@@ -95,4 +105,31 @@ li{
     .location-bar-container {
         margin: 2rem 4rem;
     }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:789px) {
+
+
+    .location-select {
+        display: flex;
+        margin-right: 2em;
+    }
+
+    .location-bar-container .location-options > a{
+        display: none;
+    }
+
+    .location-bar-container .location-options{
+        justify-content: flex-end;
+    }
+    
+        
 }

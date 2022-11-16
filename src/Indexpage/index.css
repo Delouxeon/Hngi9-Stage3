@@ -100,7 +100,7 @@
      flex-direction: column;
      gap: 1rem;
      justify-content: center;
-     align-items: center;
+     /* align-items: center; */
  }
 
  .section3writeup h3,
@@ -115,6 +115,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: 1rem;
+    text-align: left;
 }
 
  .section3writeup p {
@@ -193,7 +194,7 @@
     .sec1-heading {
         font-style: normal;
         font-weight: 400;
-        font-size: 56px;
+        font-size: 50px;
         line-height: 140%;
     }
 
