@@ -104,7 +104,7 @@
  .section3writeup {
      display: flex;
      flex-direction: column;
-     gap: 1rem;
+     gap: 2rem;
      justify-content: center;
      /* align-items: center; */
 
@@ -114,20 +114,21 @@
  .section3writeup p {
      color: #fff;
      opacity: .96;
-     line-height: 20px;
  }
 
-.section3writeup h3 {
+.section3heading {
     font-style: normal;
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: 1rem;
     text-align: left;
+    line-height: 59.95px;
 }
 
  .section3writeup p {
      /* margin-bottom: 1rem; */
      font-size: .9rem;
+     line-height: 35px;
  }
 
 .threeimage {
@@ -191,8 +192,9 @@
     .sec1-paragraph {
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 35px;
+        margin-bottom: .5rem;
     }
 
     .section1writeup{
@@ -202,17 +204,17 @@
     .sec1-heading {
         font-style: normal;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 36px;
         line-height: 140%;
     }
 
     .section3heading{
-        font-size: 48px;
+        font-size: 40px;
         line-height: 60px;
     }
     
     .section3writeup p {
-        font-size: 1.2rem;
+        font-size: 18px;
     }
 
 
