@@ -38,6 +38,7 @@ header, section, footer{
 }
 
 
+
 body, a{
     color:#434343;
     font-family: 'Red Rose';
@@ -155,7 +156,7 @@ nav ul li{
 footer{
     background: #1D1D1E;
     color: #F1F3F9;
-    font-size: .7rem;
+    /* font-size: .7rem; */
 }
 
 footer ul{
@@ -171,11 +172,12 @@ footer li{
 
 footer li a{
     color: #F1F3F9;
+    font-size: 14px;
 }
 
 footer h4{
     color:#ffff;
-    font-size: .9rem;
+    font-size: 18px;
     margin-bottom: 1rem;
     margin-top: .5rem;
 }
@@ -211,9 +213,18 @@ footer h4{
     width: 18px;
 }
 
+.copyright{
+    font-size: 16px;
+    margin-left: 1rem;
+}
 
 
-
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
 
 
 @media(min-width:481px) {
@@ -231,6 +242,10 @@ footer h4{
     .section3-container,
     .footer-container {
         margin: 2rem 2rem;
+    }
+
+    .copyright{
+        margin-left: 2rem;
     }
 
     .card-container {
@@ -273,6 +288,11 @@ footer h4{
     margin: 2rem 3rem;
     }
 
+
+    .copyright{
+        margin-left: 3rem;
+    }
+
     .card-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
@@ -304,6 +324,12 @@ footer h4{
     .footer-container {
         margin: 2rem 4rem;
     }
+
+    .copyright{
+        margin-left: 4rem;
+
+    }
+
 
     .headermetabnb, .footermethabnb{
         width: 200px;
