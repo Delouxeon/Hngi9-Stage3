@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import React from 'react'
 import { Link } from "react-router-dom"
-import HeaderMetabnb from '../assets/HeaderMetabnb.svg'
+import HeaderMetabnb from '../assets/HeaderMetabnb.png'
 import ConnectWallet from '../Connect-Wallet/connectWallet'
 
 const Header = () => {
@@ -15,7 +15,7 @@ return(
        <nav className='headerNav'>
           <ul>
             {}
-            <li><Link to={"/index.html"}>Home</Link></li>
+            <li><Link to={"/"}>Home</Link></li>
             {}
             <li><Link to={"/placestostay.html"}>Places to Stay</Link></li>
             <li><a href="">NFTs</a></li>

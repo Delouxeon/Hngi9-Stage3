@@ -1,4 +1,4 @@
-import setting5 from '../assets/setting5.svg'
+import setting5 from '../assets/setting5.png'
 
 const LocationBar = () => {
 

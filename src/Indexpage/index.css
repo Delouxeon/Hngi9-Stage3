@@ -87,12 +87,18 @@
     border: 1px solid #000000;
 }
 
-  .section3-container {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 40% 60%;
-      gap: 1rem;
-  }
+.section3-container {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    gap: 1rem; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
 
 
  .section3writeup {
@@ -119,7 +125,7 @@
 }
 
  .section3writeup p {
-     margin-bottom: 1rem;
+     /* margin-bottom: 1rem; */
      font-size: .9rem;
  }
 
@@ -165,6 +171,7 @@
 
     .threeimage {
         width: 100%;
+         /* width: 60%; */
     }
 
 }

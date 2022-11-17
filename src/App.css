@@ -248,6 +248,10 @@ footer h4{
 }
 
 @media(min-width:789px) {
+    .home-card-container{
+        margin-right: 30px;
+    }
+
     .header-container {
         justify-content: space-between;
         flex-direction: row;

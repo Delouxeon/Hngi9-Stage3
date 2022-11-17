@@ -1,8 +1,8 @@
 
-import FooterMetabnb from '../assets/FooterMetabnb.svg';
-import facebook from '../assets/facebook.svg';
-import instagram from '../assets/instagram.svg';
-import twitter from '../assets/twitter.svg';
+import FooterMetabnb from '../assets/FooterMetabnb.png';
+import facebook from '../assets/facebook.png';
+import instagram from '../assets/instagram.png';
+import twitter from '../assets/twitter.png';
 
 
 const Footer = () => {

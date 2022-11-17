@@ -1,4 +1,4 @@
-import ThreePics from '../assets/ThreePics.svg'
+import ThreePics from '../assets/ThreePics.png'
 
 const MetanabNft = () => {
 

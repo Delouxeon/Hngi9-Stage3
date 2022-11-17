@@ -1,19 +1,19 @@
-import CardImage01 from '../assets/CardImage01.svg'
-import CardImage02 from '../assets/CardImage02.svg'
-import CardImage03 from '../assets/CardImage03.svg'
-import CardImage04 from '../assets/CardImage04.svg'
-import CardImage05 from '../assets/CardImage05.svg'
-import CardImage06 from '../assets/CardImage06.svg'
-import CardImage07 from '../assets/CardImage07.svg'
-import CardImage08 from '../assets/CardImage08.svg'
-import FiveStar from '../assets/FiveStar.svg'
+import CardImage01 from '../assets/CardImage01.png'
+import CardImage02 from '../assets/CardImage02.png'
+import CardImage03 from '../assets/CardImage03.png'
+import CardImage04 from '../assets/CardImage04.png'
+import CardImage05 from '../assets/CardImage05.png'
+import CardImage06 from '../assets/CardImage06.png'
+import CardImage07 from '../assets/CardImage07.png'
+import CardImage08 from '../assets/CardImage08.png'
+import FiveStar from '../assets/FiveStar.png'
 
 const CardSection = () => {
 
 return(
   <section className='section2'>
     <div className='section2-container'>
-      <h2 className='section2-heading'>Inspiration for your next adventure</h2>
+      <h2 className='section2-heading' style={{margin: '20px 0'}}>Inspiration for your next adventure</h2>
       <div className="home-card-container card-container">
         <div className="card">
           <img className='card-img' src={CardImage01} />

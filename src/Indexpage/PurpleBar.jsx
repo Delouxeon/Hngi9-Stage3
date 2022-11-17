@@ -1,6 +1,6 @@
-import MBTokenPurplebar from '../assets/MBTokenPurplebar.svg'
-import MetamaskPurplebar from '../assets/MetamaskPurplebar.svg'
-import OpenSeaPurplebar from '../assets/OpenSeaPurplebar.svg'
+import MBTokenPurplebar from '../assets/MBTokenPurplebar.png'
+import MetamaskPurplebar from '../assets/MetamaskPurplebar.png'
+import OpenSeaPurplebar from '../assets/OpenSeaPurplebar.png'
 const Purplebar = () => {
 
 return(

@@ -1,5 +1,5 @@
 import React from 'react';
-import FourPicsImage from '../assets/FourPicsImage.svg';
+import FourPicsImage from '../assets/FourPicsImage.png';
 const FirstSection = () => {
 
 return(
